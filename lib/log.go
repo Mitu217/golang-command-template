@@ -46,6 +46,6 @@ func (l Logger) Success(text string) {
 }
 
 func (l Logger) Info(text string) {
-	c := color.New(color.FgWhite, color.Bold)
+	c := color.New(color.FgWhite)
 	l.logging(c, text)
 }
